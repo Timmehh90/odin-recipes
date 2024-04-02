@@ -1,3 +1,12 @@
+/* Variables */
+:root{
+    --light-clr: #e9e7e7;
+    --bor-rad: 5px;
+    --bor-rad-big: calc(var(--bor-rad) * 2);
+    --margin-top-bottom: 10px 0;
+}
+
+/* Reset & Standard settings*/
 html {
     box-sizing: border-box;
 }
@@ -11,4 +20,36 @@ html {
 * {
     margin: 0;
     padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+/* Recipe Page */
+
+.margin-tb{
+    margin: var(--margin-top-bottom);
+}
+
+.recipe-img {
+    width: 40%;
+    height: auto;
+}
+
+/* Utilities Below*/
+
+/* Container Utils*/
+
+.container{
+    width: 900px;
+    margin: 20px auto;
+}
+
+/* Backgrounds */
+
+.bg-light {
+    background: var(--light-clr);
+    border-radius: var(--bor-rad-big);
+    padding: 40px;
 }
