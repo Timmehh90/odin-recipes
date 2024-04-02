@@ -32,14 +32,19 @@ ul {
     list-style: none;
 }
 
-ul a {
+ul li a {
     text-decoration: none;
     color: var(--dark-clr);
 }
 
-/* Homepage */
+/* Navbar */
 
-.header {
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-title {
     font-size: 2.2rem;
     line-height: 1.6;
 }
