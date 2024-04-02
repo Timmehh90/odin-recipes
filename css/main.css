@@ -1,9 +1,11 @@
 /* Variables */
 :root{
     --light-clr: #e9e7e7;
+    --dark-clr: #727272;
     --bor-rad: 5px;
     --bor-rad-big: calc(var(--bor-rad) * 2);
     --margin-top-bottom: 10px 0;
+    --gen-padding: 20px;
 }
 
 /* Reset & Standard settings*/
@@ -26,6 +28,22 @@ img {
     width: 100%;
 }
 
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: var(--dark-clr);
+}
+
+/* Homepage */
+
+.header {
+    font-size: 2.2rem;
+    line-height: 1.6;
+}
+
 /* Recipe Page */
 
 .margin-tb{
@@ -46,10 +64,19 @@ img {
     margin: 20px auto;
 }
 
+.container-bg{
+    width: 100%;
+}
+
+/* Border */
+
+.bor-rad{
+    border-radius: var(--bor-rad-big);
+}
+
 /* Backgrounds */
 
 .bg-light {
     background: var(--light-clr);
-    border-radius: var(--bor-rad-big);
-    padding: 40px;
+    padding: calc(var(--gen-padding)* 2);
 }
