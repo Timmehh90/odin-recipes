@@ -76,9 +76,23 @@ a {
 /* Homepage */
 
 .card {
-  width: 400px;
+  width: 300px;
   height: auto;
   margin: 20px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card a img {
+  max-width: 200px;
+  max-height: 200px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* Recipe Page */
