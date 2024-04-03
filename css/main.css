@@ -1,6 +1,6 @@
 /* Variables */
 :root {
-  --white-clr: #f2f7f2;
+  --white-clr: #fff;
   --black-clr: #000;
   --accent-clr: #4c86a8;
   --bor-rad: 5px;
@@ -186,4 +186,5 @@ a {
 .bg-accent {
   background: var(--accent-clr);
   padding: calc(var(--gen-padding) * 2);
+  color: var(--white-clr);
 }
