@@ -61,7 +61,8 @@ a {
   font-weight: 700;
 }
 
-.nav-links li a:hover {
+.nav-links li a:hover,
+.site-title:hover {
   color: var(--accent-clr);
   transition: 1s;
 }
