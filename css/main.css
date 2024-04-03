@@ -37,9 +37,9 @@ ul {
     list-style: none;
 }
 
-ul li a {
+a {
     text-decoration: none;
-    color: var(--dark-clr);
+    color: var(--black-clr);
 }
 
 /* Navbar */
@@ -56,11 +56,13 @@ ul li a {
 
 .nav-links li a{
     padding: var(--gen-padding);
+    color: var(--white-clr);
 }
 
 .site-title {
     font-size: 2.2rem;
     line-height: 1.6;
+    color: var(--white-clr);
 }
 
 /* Recipe Page */
