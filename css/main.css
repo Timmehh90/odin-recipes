@@ -73,6 +73,14 @@ a {
   color: var(--white-clr);
 }
 
+/* Homepage */
+
+.card {
+  width: 400px;
+  height: auto;
+  margin: 20px;
+}
+
 /* Recipe Page */
 
 .margin-tb {
