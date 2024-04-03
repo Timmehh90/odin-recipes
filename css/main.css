@@ -79,7 +79,7 @@ ul li a {
 /* Container Utils*/
 
 .container{
-    width: 900px;
+    width: 1100px;
     margin: 20px auto;
 }
 
@@ -91,6 +91,10 @@ ul li a {
 
 .bor-rad{
     border-radius: var(--bor-rad-big);
+}
+
+.bor-btm{
+    border-bottom:  5px var(--white-clr) double;
 }
 
 /* Text */
