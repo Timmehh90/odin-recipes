@@ -89,6 +89,7 @@ ul li a {
     border-radius: var(--bor-rad-big);
 }
 
+
 /* Backgrounds */
 
 .bg-white {
@@ -98,7 +99,7 @@ ul li a {
 
 .bg-black {
     background: var(--black-clr);
-    padding: calc(var(--gen-padding)* 2);
+    padding: var(--gen-padding);
     color: var(--white-clr);
 }
 
