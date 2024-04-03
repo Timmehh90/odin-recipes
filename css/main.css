@@ -1,159 +1,166 @@
 /* Variables */
-:root{
-    --white-clr: #f2f7f2;
-    --black-clr: #000;
-    --accent-clr: #4c86a8;
-    --bor-rad: 5px;
-    --bor-rad-big: calc(var(--bor-rad) * 2);
-    --margin-top-bottom: 10px 0;
-    --gen-padding: 20px;
+:root {
+  --white-clr: #f2f7f2;
+  --black-clr: #000;
+  --accent-clr: #4c86a8;
+  --bor-rad: 5px;
+  --bor-rad-big: calc(var(--bor-rad) * 2);
+  --margin-top-bottom: 10px 0;
+  --gen-padding: 20px;
 }
 
 /* Reset & Standard settings*/
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
-*::after{
-    box-sizing: inherit;
+*::after {
+  box-sizing: inherit;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: Roboto, sans-serif;
+body {
+  font-family: Roboto, sans-serif;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: var(--black-clr);
+  text-decoration: none;
+  color: var(--black-clr);
 }
 
 /* Navbar */
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-links{
-    display: flex;   
+.nav-links {
+  display: flex;
 }
 
-.nav-links li a{
-    padding: var(--gen-padding);
-    color: var(--white-clr);
+.nav-links li a {
+  padding: var(--gen-padding);
+  color: var(--white-clr);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.nav-links li a:hover {
+  color: var(--accent-clr);
+  transition: 1s;
 }
 
 .site-title {
-    font-size: 2.2rem;
-    line-height: 1.6;
-    color: var(--white-clr);
+  font-size: 2.2rem;
+  line-height: 1.6;
+  color: var(--white-clr);
 }
 
 /* Recipe Page */
 
-.margin-tb{
-    margin: var(--margin-top-bottom);
+.margin-tb {
+  margin: var(--margin-top-bottom);
 }
 
 .recipe-img {
-    width: 40%;
-    height: auto;
+  width: 40%;
+  height: auto;
 }
 
 /* Utilities Below*/
 
 /* Container Utils*/
 
-.container{
-    width: 1100px;
-    margin: 20px auto;
+.container {
+  width: 1100px;
+  margin: 20px auto;
 }
 
-.container-bg{
-    width: 100%;
+.container-bg {
+  width: 100%;
 }
 
 /* Border */
 
-.bor-rad{
-    border-radius: var(--bor-rad-big);
+.bor-rad {
+  border-radius: var(--bor-rad-big);
 }
 
-.bor-btm{
-    border-bottom:  5px var(--white-clr) double;
+.bor-btm {
+  border-bottom: 5px var(--white-clr) double;
 }
 
 /* Text */
 
-.text-xxl{
-    font-size: 3rem;
-    line-height: 1.2;
-    font-weight: 600;
-    margin: 40px 0 20px;
+.text-xxl {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 40px 0 20px;
 }
 
-.text-xl{
-    font-size: 2.2rem;
-    line-height: 1.4;
-    font-weight: normal;
-    margin: 40px 0 20px;
+.text-xl {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 40px 0 20px;
 }
 
-.text-lg{
-    font-size: 1.8rem;
-    line-height: 1.4;
-    font-weight: normal;
-    margin: 30px 0 20px;
+.text-lg {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 30px 0 20px;
 }
 
-.text-md{
-    font-size: 1.2rem;
-    line-height: 1.4;
-    font-weight: normal;
-    margin: 20px 0 10px;
+.text-md {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 20px 0 10px;
 }
 
-.text-sm{
-    font-size: 0.9rem;
-    line-height: 1.4;
-    font-weight: normal;
-    margin: 10px 0 5px;
+.text-sm {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 10px 0 5px;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 /* Backgrounds */
 
 .bg-white {
-    background: var(--white-clr);
-    padding: calc(var(--gen-padding)* 2);
+  background: var(--white-clr);
+  padding: calc(var(--gen-padding) * 2);
 }
 
 .bg-black {
-    background: var(--black-clr);
-    padding: var(--gen-padding);
-    color: var(--white-clr);
+  background: var(--black-clr);
+  padding: var(--gen-padding);
+  color: var(--white-clr);
 }
 
 .bg-accent {
-    background: var(--accent-clr);
-    padding: calc(var(--gen-padding)* 2);
+  background: var(--accent-clr);
+  padding: calc(var(--gen-padding) * 2);
 }
