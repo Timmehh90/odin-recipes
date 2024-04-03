@@ -1,7 +1,8 @@
 /* Variables */
 :root{
-    --light-clr: #e9e7e7;
-    --dark-clr: #727272;
+    --white-clr: #f2f7f2;
+    --black-clr: #000;
+    --accent-clr: #4c86a8;
     --bor-rad: 5px;
     --bor-rad-big: calc(var(--bor-rad) * 2);
     --margin-top-bottom: 10px 0;
@@ -90,7 +91,18 @@ ul li a {
 
 /* Backgrounds */
 
-.bg-light {
-    background: var(--light-clr);
+.bg-white {
+    background: var(--white-clr);
+    padding: calc(var(--gen-padding)* 2);
+}
+
+.bg-black {
+    background: var(--black-clr);
+    padding: calc(var(--gen-padding)* 2);
+    color: var(--white-clr);
+}
+
+.bg-accent {
+    background: var(--accent-clr);
     padding: calc(var(--gen-padding)* 2);
 }
